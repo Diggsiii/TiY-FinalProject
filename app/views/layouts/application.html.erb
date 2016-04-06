@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<div class="navbar"
+  <ul class="nav nav-pills nav-stacked">
+    <%= link_to "I'm Feeling Healthy !!!", index_healthy_path %>
+    <br>
+    <%= link_to "I'm Feeling Snackie !!!", index_snackie_path %>
+  </ul>
+</div>
+
+  <title>IhungryApp</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
